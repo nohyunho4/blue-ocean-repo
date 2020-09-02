@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Test2'
         echo 'aaa'
+        echo 'bbb'
       }
     }
 
