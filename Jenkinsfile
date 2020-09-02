@@ -5,10 +5,6 @@ pipeline {
       steps {
         echo 'Test2'
       }
-      steps {
-        echo 'Test3'
-      }
     }
-
   }
 }
