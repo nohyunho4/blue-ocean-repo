@@ -6,8 +6,13 @@ pipeline {
         echo 'Test2'
         echo 'aaa'
         echo 'bbb'
+      }
+    }
+
+    stage('') {
+      steps {
         script {
-          echo "test......"
+          echo "second"
         }
 
       }
