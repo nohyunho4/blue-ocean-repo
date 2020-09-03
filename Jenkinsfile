@@ -6,6 +6,10 @@ pipeline {
         echo 'Test2'
         echo 'aaa'
         echo 'bbb'
+        script {
+          echo "test......"
+        }
+
       }
     }
 
